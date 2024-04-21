@@ -1,0 +1,513 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body,
+main {
+    margin: 0 auto;
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+/* css untuk header */
+header {
+    position: fixed;
+    top: 0;
+    height: 52px;
+    width: 100%;
+    color: rgba(255, 253, 253, 0.87);
+    background-color: transparent;
+    z-index: 10;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.92);
+    width: 100%;
+    position: fixed;
+    color: rgba(255, 253, 253, 0.87); */
+    /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+}
+
+
+.header-wrapper {
+
+    /* text-align: center;
+    line-height: 50px;
+    font-size: 30px; */
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 250px;
+    font-size: 12px;
+    background-color: rgba(250, 250, 252, 1);
+    border: none;
+}
+
+.header-list li {
+    margin: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: #1D1D1F;
+}
+
+
+.logo {
+    width: 25px;
+    /* width: 30px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    float:left;
+    margin-left:30px; */
+}
+
+span {
+    /* margin-left:20px;
+    float:left; */
+}
+
+.search-icon {
+    color: #1D1D1F;
+}
+
+/* search btn */
+.search-container {
+    position: relative;
+}
+
+.search-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    background-color: #1D1D1F;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-dropdown input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.search-dropdown button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.search-dropdown button:hover {
+    background-color: #555;
+}
+
+/* header */
+
+
+/* container global - disabled */
+
+/* .container {
+    margin: 0 20px;
+  }
+*/
+
+.contents {
+    background-color: white;
+}
+
+
+.image-container .iphone-12 {
+    height: 640px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.common-title {
+    height: 100%;
+    background-image: url(img/iphone-15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.common-title .title {
+    text-align: center;
+}
+
+
+.common-title .title h2 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 0;
+}
+
+.common-title .title p {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(41, 41, 41, 0.89)
+}
+
+.iphone-12 .title {
+    text-align: center;
+    padding-top: 420px;
+}
+
+
+.iphone-12 .title p {
+    color: rgba(41, 41, 41, 0.89)
+}
+
+.cta-links {
+    text-align: center;
+}
+
+.image-container .iphone-12-pro {
+    height: 640px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.iphone-12-pro {
+    height: 90%;
+    min-height: 100%;
+    background-image: url(img/iphone12pro-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iphone-12-pro .title {
+    text-align: center;
+}
+
+.iphone-12-pro .title h1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.897);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.iphone-12-pro .title p {
+    font-size: 30px;
+    font-weight: normal;
+    color: rgba(255, 253, 253, 0.87)
+}
+
+.iphone-12-pro .cta-links {
+    text-align: center;
+}
+
+.image-container .fitness {
+    height: 500px;
+    width: 100%;
+    padding-top: 0%;
+    flex: auto;
+
+}
+
+.fitness {
+    height: 90%;
+    min-height: 100%;
+    background-image: url(img/apple-fitness.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 00px;
+}
+
+.title .hello {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+
+.title .A {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 0;
+}
+
+.fitness .cta-links {
+    text-align: center;
+}
+
+/* main */
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+li {
+    color: white;
+    height: 770px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-list li {
+    flex: auto;
+    width: 50%;
+}
+
+.img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.headline {
+    margin-top: -35px;
+    margin-bottom: 30px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+/* main themes content */
+.theme-dark {
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.theme-light {
+    background-color: #fbfbfd;
+    margin: 0 auto;
+    color: #1D1D1F;
+}
+
+.container-main {
+    width: 98%;
+    height: 100%;
+}
+
+ul li img {
+    width: 100%;
+}
+
+.cta-links a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 11px 21px;
+    border: solid 1px rgb(0, 113, 227);
+    border-radius: 30px;
+    color: rgb(0, 113, 227);
+    transition: all 0.3s;
+}
+
+.cta-links a:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.cta-links .learn-more-link {
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+
+
+/* hover zoom products animation */
+.unit-image figure img {
+    transition: transform .2s;
+}
+
+.unit-image figure img:hover {
+    transform: scale(1.05);
+}
+
+.apple-watch-logo {
+    width: 25%;
+}
+
+/* main */
+
+
+/* css untuk footer */
+
+footer {
+    background-color: #f5f5f7;
+    padding: 40px;
+    height: 1000px;
+    color: #1d1d1f;
+}
+
+.logo-footer {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.txt-copy {
+    margin: 0;
+}
+
+.txt-copy a {
+    color: #fff;
+}
+
+.txt-copy a:hover {
+    text-decoration: underline;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 500px !important;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.swiper-slide button{
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+
+    color: white;
+    background-color: black;
+    border-radius: 980px;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 28px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-color: transparent;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.swiper-slide p{
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+    margin: 10px 0;
+
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-left: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6)
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.footer-container {
+    display: flex;
+}
+
+.footer-list {
+    float: left;
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+.footer-list p a {
+    color: #1d1d1f;
+}
+
+.footer-list p a:hover {
+    text-decoration: underline;
+}
+
+.clear-footer {
+    clear: left;
+}
+
+.foot-notes ul li {
+    color: #86868b;
+    height: 2em;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.footer-container,
+.footer-list-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* footer */
+
+/* responsive */
+.menu-logo {
+    visibility: hidden;
+    position: absolute;
+}
+
+.fa-searchs {
+    visibility: hidden;
+}
